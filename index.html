@@ -1,0 +1,250 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>O Tear de Miraflores</title>
+    <meta name="description" content="Marca de artesanato">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <meta name="author" content="Madalena Formiga">
+    <meta http-equiv="refresh" content="30">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <header>
+
+        <div class="menu_icon" onclick="myFunction(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
+
+        <div id="drawer">
+            <nav>
+                <a href="#Trabalhos"> Galeria de trabalhos </a>
+                <a href="#Encomenda"> Quero encomendar!</a>
+                <a href="#Precos"> Preçário </a>
+            </nav>
+        </div>
+
+        <h1>O Tear de Miraflores</h1>
+        <h6> Peças de Artesanato feitas em Tear Manual </h6>
+
+    </header>
+
+    <nav id="tabletPC" class="col-3">
+        <a href="#Trabalhos"> Galeria de trabalhos </a>
+        <a href="#Encomenda"> Quero encomendar!</a>
+        <a href="#Precos"> Preçário </a>
+    </nav>
+
+
+
+    <div id="container" class="col-6">
+
+
+        <section>
+            <a name="Trabalhos"> </a>
+            <h2> Galeria de Trabalhos </h2>
+            <i>Nesta marca poderá encontrar diversas peças únicas e artesanais feitas em tear manual para decorar a sua
+                casa ou para oferecer a quem mais ama, confira a galeria:
+            </i>
+            <ul>
+                <li> Almofadas Bordadas </li>
+                <li> Almofadas Pompons</li>
+                <li> Almofadas Riscas</li>
+                <li> Almofadas para crianças</li>
+                <li> Bolsas </li>
+                <li> Porta-moedas </li>
+            </ul>
+
+            <section class="slideshow-container">
+                <article class="mySlides fade">
+                    <figure>
+                        <img src="imagens/B1.jpeg">
+                        <figcaption>Img 1: Almofada Bordada 1</figcaption>
+                    </figure>
+                </article>
+                <article class="mySlides fade">
+                    <figure>
+                        <img src="imagens/B2.jpg">
+                        <figcaption>Img 2: Almofada Bordada 2</figcaption>
+                    </figure>
+                </article>
+                <article class="mySlides fade">
+                    <figure>
+                        <img src="imagens/B3.jpg">
+                        <figcaption>Img 3: Almofada Bordada 3</figcaption>
+                    </figure>
+                </article>
+                <div class="dotpoints">
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+
+                </div>
+            </section>
+
+        </section>
+
+        <br>
+
+        <section>
+            <a name="Encomenda"></a>
+            <h2> Quero a minha peça única </h2>
+            <i> Quer uma peça feita ao seu gosto e à sua medida? O que tem de fazer:</i>
+            <ol>
+                <li> Escolha qual o artigo que pretende encomendar. Consulte a Galeria de Trabalhos</li>
+                <li> Diga-nos em que cores pretende que seja feito o seu artigo.</li>
+                <li> Deixe-nos o seu contacto</li>
+                <li> Receba a sua encomenda onde mais lhe convém!</li>
+            </ol>
+
+            <h4>Cores disponíveis para fabrico de novas peças</h4>
+            <p> Anote o(s) código(s) das cores que deseja para fazer a sua encomenda. </p>
+            <img src="http://www.theodora.com/gif4/html_colors.gif">
+            <br>
+        </section>
+
+        <br>
+
+        <section>
+            <a name="Precos"></a>
+            <h2>Preçário</h2>
+            <p> <i> O valor indicado é referente à peça e não inclui os custos de envio. </i> </p>
+            <table border="1px">
+                <th colspan="4"> Medidas e código dos artigos </th>
+                <tr>
+                    <td> Artigo </td>
+                    <td> Categoria </td>
+                    <td> Código artigo </td>
+                    <td> Preço </td>
+                </tr>
+
+
+                <tr>
+                    <td rowspan="7"> Almofadas <p>40cmx40cm</p>
+                    </td>
+                    <td rowspan="3"> Bordadas </td>
+                    <td> B1 </td>
+                    <td rowspan="3"> 35€ </td>
+                <tr>
+                    <td> B2 </td>
+                <tr>
+                    <td> B3 </td>
+                </tr>
+
+                <tr>
+                    <td> Pompons </td>
+                    <td> P1 </td>
+                    <td> 25€ </td>
+                </tr>
+
+                <tr>
+                    <td rowspan="2"> Riscas </td>
+                    <td> R1 </td>
+                    <td rowspan="2"> 20€ </td>
+                </tr>
+                <tr>
+                    <td> R2 </td>
+                </tr>
+
+                <tr>
+                    <td> Criança </td>
+                    <td> C1 </td>
+                    <td> 15€ </td>
+                </tr>
+
+                <td rowspan="2"> Bolsas</td>
+                <td> Saco </td>
+                <td> S </td>
+                <td> 10€ </td>
+                </tr>
+                <tr>
+                    <td> Porta-moedas </td>
+                    <td> PM </td>
+                    <td> 5€ </td>
+                </tr>
+            </table>
+            <br>
+        </section>
+
+        <aside class="col-2">
+
+            <h3>Artesã</h3>
+            <p> O Artesanato em tear entrou na vida de Maria Amélia através do exemplo da sua mãe, tecedeira de
+                profissão.
+                Ao longo de toda a sua infância viu a sua mãe tecer e vender os seus artigos como forma de colaborar no
+                sustento da família, no entanto, com a mudança para a cidade, a tradição familiar ficou em segundo
+                plano,
+                ganhando nova vida na reforma. Altura em que se dedicou a recuperar a herança e a reinventar a tecelagem
+                para o século XXI.</p>
+            <p> Agora, Maria Amélia faz pequenos artigos como forma de manter um espírito jovem e empreendedor e para
+                que
+                esta arte antiga se renove nas gerações futuras. </p>
+
+            <h3>O Tear</h3>
+
+            <img src="imagens/tear.jpeg" width="800" height="auto">
+
+            <p> Para os curiosos, deixamos um vídeo exemplificativo da criação de uma peça pela artesã:</p>
+
+            <video controls>
+                <source src="videos/V1.ogv" type="video/ogg">
+                <source src="videos/V1.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+
+        </aside>
+
+        <footer>
+            <h5>Developed by Madalena Formiga</h5>
+        </footer>
+
+
+        <script>
+            let slideIndex = 0;
+            showSlides();
+            function showSlides() {
+                let i = null;
+                let slides = document.getElementsByClassName("mySlides");
+                let dots = document.getElementsByClassName("dot");
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                }
+                slideIndex++;
+                if (slideIndex > slides.length) { slideIndex = 1 }
+                for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                }
+                slides[slideIndex - 1].style.display = "block";
+                dots[slideIndex - 1].className += " active";
+                setTimeout(showSlides, 3000); // Change image every 3 seconds
+            }
+        </script>
+
+        <script>
+            let menu_icon = document.querySelector('#menu_icon');
+            let container = document.querySelector("#container");
+            let drawer = document.querySelector('#drawer');
+            menu_icon.addEventListener('click', function (e) {
+                drawer.classList.toggle('open');
+                e.stopPropagation();
+            });
+            container.addEventListener('click', function () {
+                drawer.classList.remove('open');
+            });
+        </script>
+
+
+        <script>
+            function myFunction(x) {
+                x.classList.toggle("change");
+            }
+        </script>
+
+</body>
+
+</html>
